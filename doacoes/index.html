@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doações</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="menu">
+      <h1>Safe Place</h1>
+
+      <ul>
+        <li><a href="../home/index.html">Inicio</a></li>
+        <li><a href="../cadastrar/index.html">Cadastradar</a></li>
+        <li><a href="../comunicacoes/index.html">Comunicação</a></li>
+        <li><a href="../noticias/index.html">Noticias</a></li>
+        <li class="select"><a href="../doacoes/index.html">Doações</a></li>
+        <button class="panico">
+          <a href="../panico/index.html">Botão de Pânico</a>
+        </button>
+      </ul>
+    </div>
+    <div class="container">
+      <h2>Faça uma Doação</h2>
+      <form class="donation-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="amount">Valor da Doação:</label>
+        <input type="text" id="amount" name="amount" required />
+
+        <label for="payment-method">Método de Pagamento:</label>
+        <select id="payment-method" name="payment-method" required>
+          <option value="">Selecione...</option>
+          <option value="credit-card">Cartão de Crédito</option>
+          <option value="paypal">PayPal</option>
+          <option value="bank-transfer">Transferência Bancária</option>
+        </select>
+
+        <button type="submit">Doar</button>
+      </form>
+    </div>
+    <footer>
+      <img src="../imagens/logo.png" alt="" width="50px" />
+      Copyright 2023 ©
+    </footer>
+  </body>
+</html>

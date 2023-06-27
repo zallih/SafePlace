@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Playfair Display", serif;
+}
+.menu {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f793b9;
+  color: #ffffff;
+}
+.menu h1 {
+  font-size: 26px;
+  font-family: "Pacifico", cursive;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.title {
+  float: right;
+  padding: 14px 16px;
+  color: white;
+}
+
+.clear {
+  clear: both;
+}
+
+li a:hover {
+  background-color: #f13a58;
+}
+
+.select {
+  background-color: #f13a58;
+}
+
+.panico {
+  margin-left: 10px;
+  background-color: #f13a58;
+  border-radius: 10px;
+}
+
+.panico {
+  margin-top: 2px;
+  background-color: #f13a58;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+
+.panico a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: flex-end;
+  align-items: center;
+  background: #f13a58;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* Cadastro */
+
+.conteudo {
+  margin: auto;
+  margin-top: 30px;
+  width: 1000px;
+  height: 420px;
+  text-align: center;
+}
+
+.conteudo form input {
+  width: 400px;
+  height: 30px;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid gray;
+}
+
+.conteudo form button {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid #f13a58;
+  background-color: #f793b9;
+  color: #ffffff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+h2 {
+  color: #f13a58;
+  font-size: 30px;
+}

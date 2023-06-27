@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Playfair Display", serif;
+  background-color: #f2f2f2;
+}
+.menu {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f793b9;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.menu h1 {
+  font-size: 26px;
+  font-family: "Pacifico", cursive;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.title {
+  float: right;
+  padding: 14px 16px;
+  color: white;
+}
+
+.clear {
+  clear: both;
+}
+
+li a:hover {
+  background-color: #f13a58;
+}
+
+.select {
+  background-color: #f13a58;
+}
+
+.panico {
+  margin-left: 10px;
+  background-color: #f13a58;
+  border-radius: 10px;
+}
+
+.panico {
+  margin-top: 2px;
+  background-color: #f13a58;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+
+.panico a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: flex-end;
+  align-items: center;
+  background: #f13a58;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* Cadastro */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #f13a58;
+  font-size: 30px;
+}
+
+.donation-form {
+  margin-top: 20px;
+}
+
+.donation-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+.donation-form input[type="text"],
+.donation-form input[type="email"],
+.donation-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.donation-form button {
+  background-color: #f793b9;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.donation-form button:hover {
+  background-color: #f13a58;
+}
