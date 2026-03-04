@@ -19,5 +19,5 @@
   <p>
   Site feito para o curso da <Reprograma> junto com minha equipe: Alicia, emanuelle, Isabella e Rubia
     
-   Para ver o site clique  <a href="https://zallih.github.io/SafePlace/home/index.html">AQUI</a>
+   Para ver o site clique  <a href="https://zallys2.github.io/SafePlace/home/index.html">AQUI</a>
   </p>
